@@ -1,0 +1,30 @@
+body {
+	background: url(../images/bird-4.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+/*Main*/
+.main {
+	margin: 30px 0;
+}
+
+.main h1 {
+	font-size: 80px;
+	font-family: 'Tangerine', serif;
+	text-shadow: 2px 2px 5px rgba(0,0,0,.2);
+	text-align: center;
+	margin-bottom: 40px;
+	color: #000;
+}
+
+.thumbnail {
+	padding: 0;
+	border: 0;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+}
+
+.thumbnail img {
+	border-radius: 5px;
+}
+
+

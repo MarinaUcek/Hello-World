@@ -1,0 +1,142 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Aref Ruqaa', serif;
+}
+
+body {
+	background: url(../images/mountain-4.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+/*Header*/
+.header {
+	height: 60px;
+	background-color: rgba(0,0,0,.5);
+	font-family: 'Tangerine', serif;
+}
+
+.header .container {
+	height: 60px;
+}
+
+.header .logo {
+	height: 40px;
+	margin: 10px 0;
+	margin-right: 20px;
+}
+
+.header ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.header ul li {
+	display: inline-block;
+}
+
+.header ul li a {
+	width: 100px;
+	line-height: 60px;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+}
+
+.header ul li a:hover,
+.header ul li.active a {
+	background-color: rgba(255,242,228,.7);
+	color: #332c25;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-color: transparent;
+	height: 450px;
+}
+
+.jumbotron .container {
+	text-align: right;
+	max-width: 940px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+
+.jumbotron h1 {
+	font-size: 80px;
+	font-family: 'Tangerine', serif;
+}
+
+.jumbotron p {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1.1px;
+}
+
+.jumbotron p span {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.jumbotron .page-header {
+	border-bottom: 1px solid #332c25;
+	margin: 20px;
+}
+
+/*Supporting*/
+.supporting {
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	color: #fff;
+	padding: 60px 0 80px;
+}
+
+.supporting .container {
+	max-width: 100%;
+}
+
+.supporting .col-md-4 {
+	margin-bottom: 50px;
+}
+
+.supporting h2 {
+	margin: 0 0 30px;
+	font-size: 60px;
+	font-family: 'Tangerine', serif;
+}
+
+.supporting p {
+	font-size: 18px;
+	letter-spacing: 1.1px;
+	margin-bottom: 10px;
+}
+
+/*Footer*/
+.footer {
+	background-color: rgba(0,0,0,.8);
+	height: 60px;
+}
+
+.footer .container {
+	max-width: 100%;
+}
+
+.footer p {
+	text-align: right;
+	color: #fff;
+	margin: 15px 0;
+}

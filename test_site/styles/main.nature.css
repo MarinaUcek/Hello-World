@@ -1,0 +1,81 @@
+body {
+	background: #fff;
+}
+
+/*Main*/
+.main {
+	position: relative;
+}
+
+.main video {
+	width: 100%;
+}
+
+.main .container {
+	position: absolute;
+	width: 100%;
+	top: 80px;
+	left: 0;
+	right: 0;
+	text-align: right;
+}
+
+.main p {
+	font-size: 35px;
+	font-weight: 500;
+	letter-spacing: 1.1px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,.2);
+	margin-bottom: 35px;
+}
+
+/*Mean*/
+.mean {
+	background: url(../images/bird-2.jpg) no-repeat center right;
+	background-size: contain;
+	height: 400px;
+}
+
+.mean h1 {
+	margin: 100px 0 20px;
+	font-size: 80px;
+	font-family: 'Tangerine', serif;
+	text-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+
+.mean h1 span {
+	border-bottom: 1px solid #332c25;
+}
+
+.mean p {
+	font-size: 20px;
+	letter-spacing: 1.1px;
+}
+
+.mean p span {
+	font-weight: bold;
+}
+
+/*Feature*/
+.feature img {
+	width: 100%;
+}
+
+/*Section*/
+.section .row {
+	padding: 50px 0;
+	border-bottom: 1px solid #332c25;
+}
+
+.section .container :nth-child(3) {
+	border-bottom: 0;
+}
+
+.section h2 {
+	font-size: 60px;
+	font-family: 'Tangerine', serif;
+	margin: 30px 0 20px;
+}
+
+.section p {
+	font-size: 20px;
+}
